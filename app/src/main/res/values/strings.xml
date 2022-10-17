@@ -14,4 +14,9 @@
     <string name="add_field">Add Section</string>
     <string name="note_title">Note Title</string>
     <string name="compose_note">Compose Note</string>
+    <string name="note_list_category_selector">TextView</string>
+    <string name="main_app">Trappr Keepr Main Instance</string>
+    <string name="title_activity_create_note">CreateNoteActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

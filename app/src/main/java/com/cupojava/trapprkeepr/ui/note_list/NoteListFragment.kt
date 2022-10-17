@@ -32,10 +32,8 @@ class NoteListFragment : Fragment() {
         _binding = FragmentNoteListBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNoteList
-        noteListViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
+
+
         return root
     }
 
