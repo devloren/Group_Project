@@ -29,7 +29,6 @@ class NoteListFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        //val noteListViewModel = ViewModelProvider(this).get(NoteListViewModel::class.java)
 
         _binding = FragmentNoteListBinding.inflate(inflater, container, false)
         val root: View = binding.root
@@ -41,14 +40,9 @@ class NoteListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         var nh = NoteHandler()
-        val jimBob = ArrayAdapter<String>(requireContext(), R.layout.simple_spinner_dropdown_item, nh.categoricalList.values.toList())
+        val listShow = ArrayAdapter<String>(requireContext(), R.layout.simple_spinner_dropdown_item, nh.categoricalList.values.toList())
 
-        //val spinner = view.findViewById<Spinner>(com.cupojava.trapprkeepr.R.id.note_list_category_selector)
-        //spinner.adapter = ArrayAdapter<String>(requireContext(), R.layout.simple_spinner_dropdown_item, nh.categoricalList.values.toList())
-
-        //val textView = view.findViewById<TextView>(com.cupojava.trapprkeepr.R.id.note_content)
-
-        listONotes.adapter = jimBob
+        listONotes.adapter = listShow
 
     }
 
