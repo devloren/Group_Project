@@ -5,30 +5,32 @@
     android:layout_height="match_parent"
     android:background="?attr/fullscreenBackgroundColor"
     android:theme="@style/ThemeOverlay.TrapprKeepr.FullscreenContainer"
-    tools:context=".CreateNoteActivity">
-
-    <!-- The primary full-screen view. This can be replaced with whatever view
-         is needed to present your content, e.g. VideoView, SurfaceView,
-         TextureView, etc. -->
+    tools:context=".Birthday">
+    <EditText
+        android:id="@+id/xyz"
+        android:layout_width="416dp"
+        android:layout_height="760dp"
+        android:layout_marginTop="4dp"
+        android:autofillHints=""
+        android:background="@color/light_blue_600"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Food,Drinks, Place,People, etc."
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
     <TextView
         android:id="@+id/fullscreen_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="778dp"
         android:gravity="center"
         android:keepScreenOn="true"
-        android:text="@string/dummy_content"
+        android:text="Start Taking The Notes For Your Event"
         android:textColor="?attr/fullscreenTextColor"
         android:textSize="50sp"
         android:textStyle="bold" />
-
-    <!-- This FrameLayout insets its children based on system windows using
-         android:fitsSystemWindows. -->
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
-
-        <LinearLayout
+    <LinearLayout
             android:id="@+id/fullscreen_content_controls"
             style="@style/Widget.Theme.TrapprKeepr.ButtonBar.Fullscreen"
             android:layout_width="match_parent"
@@ -36,16 +38,16 @@
             android:layout_gravity="bottom|center_horizontal"
             android:orientation="horizontal"
             tools:ignore="UselessParent">
-
             <Button
                 android:id="@+id/dummy_button"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="SAVE" />
-
+                android:text="SAVE"
+                />
         </LinearLayout>
+
+
     </FrameLayout>
 
-</FrameLayout>
