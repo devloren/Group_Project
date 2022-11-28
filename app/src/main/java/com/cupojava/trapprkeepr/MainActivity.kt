@@ -17,6 +17,7 @@ import com.cupojava.trapprkeepr.ui.note.ComposeNoteFragment
 
 class MainActivity : AppCompatActivity() {
 
+
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
