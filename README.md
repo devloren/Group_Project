@@ -1,4 +1,4 @@
-# Group_Project
+# Trappr Keepr ReadMe (Group 3 Project)
 Java Group Project
 
 Hello! These are the codes to make a note taking app.
