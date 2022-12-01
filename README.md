@@ -39,7 +39,7 @@ The navigation folder has the xml file of the main pages layout of the different
 The goal of the project was to make a ToDo List application that would allow the user to create multiple different ToDo lists and notes to help organize activities
 that require multiple steps to complete. The app would also allow you to compose notes in relation to these ToDo Lists or to make generic notes that do not require
 a full ToDo list.
-<br>
+<br><br>
 The user would open the app to a home page where there would be a list of templates for them to choose from on what kind of ToDo list they would like to make. After
 selecting one, it would ask if there are any overencompassing notes that they would like to make. From there, it should send them to the note list where they can view
 the notes they have made. There is also a sidebar available at all times to make navigating the app easier.
